@@ -31,6 +31,7 @@ $wgExtensionMessagesFiles['Firebase'] = $dir . 'Firebase.i18n.php';
 // Hooks
 $wgHooks['BeforePageDisplay'][] = 'FirebaseHooks::onBeforePageDisplay';
 $wgHooks['ParserFirstCallInit'][] = 'FirebaseHooks::onParserFirstCallInit';
+$wgHooks['ParserBeforeStrip'][] = 'FirebaseHooks::onParserBeforeStrip';
 
 // Modules
 $wgResourceModules['ext.Firebase'] = array(
