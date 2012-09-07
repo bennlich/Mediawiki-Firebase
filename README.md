@@ -11,13 +11,13 @@ All instances of `<firebase url="gamma.firebase.com/myfirebase/mydata" />` will 
 
 All instances of `<firebaseraw url="gamma.firebase.com/myfirebase/mydata" />` will be replaced only * **once**, before most other widgets, templates, or extensions are loaded.* This means you can insert the tag into something like a Google Street View Widget:
 
-```{{#widget:Google Street View
-|lat=<firebaseraw url="http://gamma.firebase.com/myfirebase/lat" />
-|lng=<firebaseraw url="http://gamma.firebase.com/myfirebase/lng" />
-|yaw=370.64659986187695
-|pitch=-20
-|zoom=0
-}}```
+    {{#widget:Google Street View
+    |lat=<firebaseraw url="http://gamma.firebase.com/myfirebase/lat" />
+    |lng=<firebaseraw url="http://gamma.firebase.com/myfirebase/lng" />
+    |yaw=370.64659986187695
+    |pitch=-20
+    |zoom=0
+    }}
 
 Pretty cool, right?
 
