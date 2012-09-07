@@ -9,7 +9,7 @@ There are two new tags for retrieving data from a Firebase reference: `<firebase
 
 All instances of `<firebase url="gamma.firebase.com/myfirebase/mydata" />` will be replaced by a `<span></span>` element that fills itself with live data from the provided Firebase URL. Use this tag if you want to display a live entry from Firebase.
 
-All instances of `<firebaseraw url="gamma.firebase.com/myfirebase/mydata" />` will be replaced only * **once**, before most other widgets, templates, or extensions are loaded.* This means you can insert the tag into something like a Google Street View Widget:
+All instances of `<firebaseraw url="gamma.firebase.com/myfirebase/mydata" />` will be replaced **only once, before most other widgets, templates, or extensions are loaded.** This means you can insert the tag into something like a Google Street View Widget:
 
     {{#widget:Google Street View
     |lat=<firebaseraw url="http://gamma.firebase.com/myfirebase/lat" />
